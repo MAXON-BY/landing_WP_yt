@@ -1,0 +1,551 @@
+/* line 3, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialised; }
+
+/* line 13, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+body input:focus:required:invalid, body textarea:focus:required:invalid {
+  color: red; }
+
+/* line 16, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+body input:required:valid, body textarea:required:valid {
+  color: green; }
+
+/* line 19, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.hidden {
+  display: none; }
+
+/* line 23, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+section, .main_head {
+  position: relative; }
+  /* line 25, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  section h3, .main_head h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 35px; }
+
+/* line 33, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+section {
+  padding: 70px 0 90px; }
+  /* line 35, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  section h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    letter-spacing: 1px; }
+  /* line 41, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  section .personal_header {
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #555; }
+
+/* line 47, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.s_descr_wrap {
+  text-align: center; }
+  /* line 49, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .s_descr_wrap .s_descr {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 130px;
+    font-weight: 600; }
+    /* line 56, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+    .s_descr_wrap .s_descr::after {
+      content: "";
+      height: 1px;
+      left: 50%;
+      margin-left: -75px;
+      margin-top: 60px;
+      position: absolute;
+      width: 150px; }
+
+/* line 65, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.main_head {
+  min-height: 480px;
+  padding-top: 20px; }
+
+/* line 69, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+  /* line 79, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .loader .loader_inner {
+    background-image: url("../img/preloader.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-posirion: center center;
+    background-color: #fff;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute; }
+
+/* line 93, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.logo_container {
+  float: left; }
+
+/* line 96, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+svg {
+  height: 60px;
+  width: 60px;
+  z-index: 1;
+  position: relative; }
+
+/* line 102, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.toggle_mnu {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  z-index: 100;
+  border: none;
+  right: 20px;
+  top: 20px; }
+  /* line 110, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .toggle_mnu span {
+    display: block; }
+
+/* line 117, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.sandwich {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 8px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 200; }
+
+/* line 128, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.sw-topper {
+  position: relative;
+  top: 0;
+  width: 28px;
+  height: 3px;
+  background: white;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  transition: transform 0.5s, top 0.2s;
+  display: block; }
+
+/* line 142, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+svg path {
+  fill: #e0e0e0; }
+
+/* line 145, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.sw-bottom {
+  position: relative;
+  width: 28px;
+  height: 3px;
+  top: 6.6px;
+  background: white;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  transition: transform 0.5s, top 0.2s;
+  transition-delay: 0.2s, 0s; }
+
+/* line 155, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.sw-footer {
+  position: relative;
+  width: 28px;
+  height: 3px;
+  top: 13.5px;
+  background: white;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  transition: all 0.5s;
+  transition-delay: 0.1s; }
+
+/* line 166, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.sandwich.active .sw-topper {
+  top: 9px;
+  transform: rotate(-45deg); }
+/* line 169, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.sandwich.active .sw-bottom {
+  top: 6px;
+  transform: rotate(45deg); }
+/* line 172, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.sandwich.active .sw-footer {
+  opacity: 0;
+  top: 0;
+  transform: rotate(180deg); }
+
+/* line 177, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.top_mnu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 50;
+  right: 0;
+  top: 0;
+  display: none; }
+  /* line 187, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .top_mnu ul, .top_mnu li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+  /* line 191, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .top_mnu ul {
+    margin-top: 180px;
+    text-align: center;
+    -webkit-animation-duration: 0.01s;
+    -moz-animation-duration: 0.01s;
+    animation-duration: 0.01s; }
+    /* line 196, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+    .top_mnu ul li:nth-child(1) a {
+      -webkit-animation-delay: 0;
+      -moz-animation-delay: 0;
+      animation-delay: 0; }
+    /* line 198, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+    .top_mnu ul li:nth-child(2) a {
+      -webkit-animation-delay: 0.1s;
+      -moz-animation-delay: 0.1s;
+      animation-delay: 0.1s; }
+    /* line 200, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+    .top_mnu ul li:nth-child(3) a {
+      -webkit-animation-delay: 0.2s;
+      -moz-animation-delay: 0.2s;
+      animation-delay: 0.2s; }
+    /* line 202, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+    .top_mnu ul li:nth-child(4) a {
+      -webkit-animation-delay: 0.3s;
+      -moz-animation-delay: 0.3s;
+      animation-delay: 0.3s; }
+    /* line 204, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+    .top_mnu ul a {
+      color: #fff;
+      display: block;
+      text-transform: uppercase;
+      font-size: 12px;
+      opacity: 0;
+      position: relative;
+      height: 60px;
+      outline: none; }
+      /* line 213, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+      .top_mnu ul a span {
+        display: block;
+        position: relative;
+        top: -40px;
+        left: 0;
+        height: 100%;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        transition: all 0.5s ease; }
+        /* line 220, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+        .top_mnu ul a span:hover {
+          background-color: rgba(255, 255, 255, 0.08); }
+
+/* line 223, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.top_wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+  /* line 231, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .top_wrapper .top_descr {
+    display: table-row; }
+    /* line 233, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+    .top_wrapper .top_descr .top_centered {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle; }
+  /* line 237, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .top_wrapper .top_text {
+    display: inline-block;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease; }
+    /* line 240, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+    .top_wrapper .top_text p {
+      margin: 0;
+      text-transform: uppercase;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      animation-delay: 1s; }
+    /* line 244, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+    .top_wrapper .top_text h1 {
+      display: inline-block;
+      padding: 10px 35px;
+      color: #fff;
+      border: 8px solid #fff;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 2.8em;
+      background-color: rgba(0, 0, 0, 0.1);
+      margin-left: 20px;
+      margin-right: 20px;
+      letter-spacing: 4px;
+      -webkit-animation-delay: 0.5s;
+      -moz-animation-delay: 0.5s;
+      animation-delay: 0.5s; }
+
+/* line 258, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.toggle_mnu {
+  background-color: #000; }
+
+/* line 261, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.main_footer {
+  padding: 50px 0;
+  font-size: 13px;
+  font-weight: 300; }
+  /* line 265, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .main_footer .social_wrap {
+    float: right;
+    line-height: 0; }
+    /* line 268, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+    .main_footer .social_wrap ul {
+      margin: 0; }
+
+/* line 271, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.person {
+  text-align: center;
+  margin-bottom: 35px; }
+  /* line 274, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .person img {
+    max-width: 220px;
+    display: inline-block;
+    border-radius: 50%; }
+
+/* line 280, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.s_about p {
+  margin-bottom: 25px; }
+/* line 283, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.s_about ul, .s_about li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+/* line 287, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.s_about li {
+  margin-bottom: 10px; }
+/* line 289, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.s_about .social_wrap {
+  margin-top: 25px; }
+
+/* line 293, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.social_wrap li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 3px; }
+
+/* line 299, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.resume_container .left .resume_description strong {
+  margin-left: 10px; }
+/* line 301, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.resume_container .right .resume_description strong {
+  margin-right: 10px; }
+/* line 303, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.resume_container .left {
+  text-align: right;
+  border-right: #d2d2d2 1px solid; }
+  /* line 306, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .resume_container .left h3 {
+    text-align: right; }
+/* line 308, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.resume_container .right {
+  text-align: left; }
+  /* line 310, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .resume_container .right h3 {
+    text-align: left; }
+/* line 312, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.resume_container h3 {
+  margin-top: 30px; }
+/* line 314, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.resume_container .year {
+  font-weight: 600;
+  font-style: italic;
+  display: inline-block;
+  padding: 0 15px;
+  margin-bottom: 15px; }
+/* line 320, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.resume_container strong {
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase; }
+/* line 324, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.resume_container .resume_description {
+  font-style: italic; }
+/* line 326, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.resume_container .resume_item {
+  margin-bottom: 40px; }
+  /* line 328, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .resume_container .resume_item p {
+    margin-top: 10px; }
+  /* line 330, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .resume_container .resume_item:last-child {
+    margin-bottom: 0; }
+    /* line 332, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+    .resume_container .resume_item:last-child p {
+      margin-bottom: 0; }
+
+/* line 335, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.resume_icon {
+  font-size: 40px;
+  margin-bottom: 35px; }
+  /* line 338, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .resume_icon .year {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 0 10px; }
+
+/* line 345, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.s_portfolio ul, .s_portfolio li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+/* line 350, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.s_portfolio li {
+  display: inline-block;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 2; }
+/* line 357, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.s_portfolio ul {
+  margin-bottom: 50px; }
+
+/* line 360, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.portfolio_item {
+  display: none;
+  padding: 0; }
+  /* line 363, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .portfolio_item img {
+    width: 100%; }
+  /* line 365, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .portfolio_item .port_item_cont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-top: 15%;
+    opacity: 0;
+    transition: all 0.5s; }
+  /* line 376, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .portfolio_item:hover .port_item_cont {
+    opacity: 1;
+    padding-top: 20%; }
+  /* line 379, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .portfolio_item h3 {
+    color: #fff;
+    margin-bottom: 0; }
+  /* line 382, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .portfolio_item a {
+    background-color: transparent;
+    border: #fff 1px solid;
+    padding: 2px 10px;
+    display: inline-block; }
+
+/* line 388, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.podrt_descr {
+  background-color: #fff;
+  max-width: 500px;
+  margin: auto; }
+  /* line 393, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .podrt_descr p, .podrt_descr h3 {
+    padding: 20px;
+    padding-bottom: 0; }
+  /* line 396, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .podrt_descr h3 {
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 20px;
+    padding-top: 25px; }
+  /* line 403, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .podrt_descr p {
+    margin-top: 0; }
+  /* line 405, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .podrt_descr img {
+    width: 100%;
+    margin-top: 10px; }
+
+/* line 409, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.modal-box-content {
+  position: relative; }
+
+/* line 412, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.contact_box {
+  margin-bottom: 30px; }
+  /* line 414, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .contact_box h3 {
+    text-align: left;
+    color: #000;
+    margin-bottom: 0px;
+    font-size: 14px; }
+  /* line 419, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .contact_box .contacts_icon {
+    font-size: 30px; }
+  /* line 421, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .contact_box p {
+    margin-top: 5px; }
+
+/* line 425, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.main_form button {
+  border: none;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 25px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 10px;
+  float: right; }
+
+/* line 435, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+.form-group {
+  display: block;
+  margin-bottom: 20px; }
+  /* line 438, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .form-group .color_element {
+    font-weight: 700;
+    font-size: 18px; }
+  /* line 441, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .form-group .text-danger {
+    font-size: 11px;
+    margin-top: 5px;
+    display: block; }
+    /* line 446, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+    .form-group .text-danger ul, .form-group .text-danger li {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+  /* line 451, C:/Users/Max/PhpstormProjects/landing_WP_yt/css/sass/main.sass */
+  .form-group input, .form-group textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    line-height: 40px;
+    text-indent: 12px;
+    font-size: 12px;
+    background-color: transparent; }
